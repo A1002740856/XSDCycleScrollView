@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/CodeEagle/XSDCycleScrollView'
   s.author = { 'CodeEagle' => 'lvevsany@163.com' }
   s.source = { :git => 'https://github.com/CodeEagle/XSDCycleScrollView.git', :tag => s.version.to_s }
-  s.source_files = 'XSDCycleScrollView/**/*.{h,m}'
+  s.source_files = 'XSDCycleScrollView/*.{h,m}'
   s.requires_arc = true
   s.screenshots = "http://ww4.sinaimg.cn/bmiddle/9b8146edjw1esvytq7lwrg208p0fce82.gif"
 end
