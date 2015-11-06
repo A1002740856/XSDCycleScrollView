@@ -21,5 +21,8 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/CodeEagle/XSDCycleScrollView.git', :tag => s.version.to_s }
   s.source_files = 'XSDCycleScrollView/*.{h,m}'
   s.requires_arc = true
+  s.platform     = :ios, '7.0'
   s.screenshots = "http://ww4.sinaimg.cn/bmiddle/9b8146edjw1esvytq7lwrg208p0fce82.gif"
+  s.ios.frameworks = 'UIKit'
+  s.dependency 'SDWebImage'
 end
